@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/confirm.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../css//base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/footer.css"/>
+		<script src="../../koukouwang/lib/requirejs/require.js" data-main = "../js/confirm"></script>
+	</head>
+	<body>
+		<!--头部-->
+		<div class="head"></div>
+		<div class="cart_header">
+			<img src="../img/cart_header.png"/>
+		</div>
+		<div class="box">
+			<div class="info">
+				<p>请填写并核对以下信息</p>
+				<p><a href="cart.html">返回购物车</a></p>
+			</div>
+			<div class="address">
+				<span>收货地址:</span><br /></br>
+				<span id="add" class="a"><b>+</b>使用新地址</span>
+				<form  id="ff" style="display: none;">
+					<i>*</i>收货人姓名 <input type="text" /><br /><br />
+					<i>*</i>省市
+						<select class="sel"  id="province">
+							<option value="-1">请选择省份</option>
+						</select>
+						<select  id="city">
+							<option value="-1">请选择城市</option>
+						</select>
+						<select  id="district">
+							<option value="-1">请选择区县</option>
+						</select>
+					<br />
+					<i>*</i>街道地址 <textarea ></textarea><br />
+					<i>*</i>手机号码<input class="phone" type="text" required="required"><span class="text">非常重要!便于接收发货和收货通知</span><br />
+					固定电话：<input class="phone half" type="text" size="3" /> ---<input type="text" class="half" /><span class="text">如:010-12345678</span><br />
+					邮编 <input type="text" class="youbian"  /><span class="text">请填写准确的邮编,以确保商品尽快送达</span><br />
+					<button>保存并送货到此地址</button>
+				</form>
+			</div>
+		</div>
+		
+		
+		
+		
+		<!--尾部-->
+		<div class="footerr"></div>
+	</body>
+</html>

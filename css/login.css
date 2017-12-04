@@ -1,0 +1,103 @@
+	.main{
+		width: 1273px;
+		height: 590px;
+		background: lemonchiffon url(../img/login_bj.jpg) no-repeat;
+		margin: auto;
+		overflow: hidden;
+	}
+	/*注册框*/
+	.reg_box{
+		width: 529px;
+		height: 439px;
+		border: 1px solid #ccc;
+		margin-top: 55px;
+		margin-left: 672px;
+	}
+	.reg_box .reg_header{
+		width: 529px;
+		height: 60px;
+		border-bottom: 1px solid #ccc;
+	}
+	.reg_box .reg_header img{
+		margin-left: 20px;
+		margin-top: 12px;
+	}
+	.reg_box .reg_header p{
+		margin-left: 64px;
+		margin-top: -32px;
+	}
+	.reg_box span{
+		margin-left: 270px;
+	}
+	.reg_box .reg_input{
+		width:600px;
+		height: 550px;
+		margin-top: 30px;
+		margin-left: 69px;
+	}
+	.reg_box .reg_input input{
+		height: 40px;
+		width: 219px;
+		border: 1px solid #ccc;
+		margin-left: 73px;
+	}
+	.reg_box .reg_input input:nth-of-type(3){
+		margin-left: 47px;
+		background: #ccc;
+	}
+	.reg_box .reg_input input:nth-of-type(4){
+		margin-left: 56px;
+		width: 100px;
+		height: 40px;
+	}
+	.reg_box .reg_input input:nth-of-type(5){
+		margin-left: 14px;
+		width: 100px;
+		height: 40px;
+	}
+	.reg_box .reg_input input:nth-of-type(6){
+		width: 17px;
+		height: 37px;
+		margin-left: 94px;
+		margin-top: 12px;
+	}
+	.reg_box .reg_input  label{
+		display: inline-block;
+		width: 58px;
+		height: 40px;
+		position: relative;
+		top: 6px;
+	}
+	.reg_box .reg_input  label i{
+		font-style: normal;
+		color: red;
+		border-bottom: 1px solid red;
+	}
+	.reg_box .reg_input p{
+		display: inline-block;
+		width: 250px;
+		height: 30px;
+		position: relative;
+		top: -15px;
+	}
+	.reg_box .reg_input p a{border-bottom: 1px solid; color: black;}
+	.reg_box .reg_input p a:hover{ color: blue;}
+	.reg_box .reg_input button{
+		display: block;
+		width: 150px;
+		height: 40px;
+		border: 1px solid #CCCCCC;
+		background: white;
+		margin-left: 103px;
+		margin-top: 60px;
+		cursor: pointer;
+	}
+	.reg_box .reg_input .login-footer{
+		margin-left: 256px;
+		margin-top: 63px;
+	}
+	.reg_box .reg_input .login-footer i{
+		font-style: normal;
+		color: red;
+		border-bottom: 1px solid red;
+	}

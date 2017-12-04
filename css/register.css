@@ -1,0 +1,120 @@
+	.reg{
+		width: 100%;
+		height: 590px;
+	}
+	/*logo部分*/
+	.reg .logo-part{
+		width: 100%;
+		height: 73px;
+		border-bottom: 3px solid;
+	}
+	.logo-part .logo{
+		width: 112px;
+		height: 59px;
+		float: left;
+		margin-left: 105px;
+	}
+	.logo-part .hotline{
+		width: 112px;
+		height: 59px;
+		float: right;
+		margin-right: 172px;
+		margin-top: 10px;
+	}
+	/*注册框*/
+	.reg_box{
+		width: 638px;
+		height: 570px;
+		border: 1px solid #ccc;
+		margin-left: 97px;
+		float: left;
+	}
+
+
+	.reg_box .reg_header{
+		margin-left: 49px;
+		margin-top: 60px;
+	}
+	.reg_box .reg_input{
+		width:600px;
+		height: 550px;
+		margin-top: 30px;
+		margin-left: 69px;
+	}
+	.reg_box .reg_input input{
+		height: 40px;
+		width: 300px;
+		border: 1px solid #ccc;
+		margin-left: 73px;
+	}
+	.reg_box .reg_input input:nth-of-type(3){
+		margin-left: 47px;
+		background: #ccc;
+	}
+	.reg_box .reg_input input:nth-of-type(4){
+		margin-left: 56px;
+		width: 100px;
+		height: 40px;
+	}
+	.reg_box .reg_input input:nth-of-type(5){
+		margin-left: 112px;
+		width: 14px;
+		height: 40px;
+	}
+	.reg_box .reg_input input:nth-of-type(6){
+		width: 17px;
+		height: 40px;
+		margin-left: 94px;
+		margin-top: 12px;
+	}
+	.reg_box .reg_input  label{
+		display: inline-block;
+		width: 62px;
+		height: 40px;
+		position: relative;
+		top: 15px;
+		left: 12px;
+	}
+	.reg_box .reg_input  label span{color:gray;}
+	.reg_box .reg_input  label i{
+		font-style: normal;
+		color: red;
+		border-bottom: 1px solid red;
+	}
+	.reg_box .reg_input p{
+		display: inline-block;
+		width: 272px;
+		height: 30px;
+		position: relative;
+		top: -13px;
+	}
+	.reg_box .reg_input p a{border-bottom: 1px solid; color: black;}
+	.reg_box .reg_input p a:hover{ color: blue;}
+	.reg_box .reg_input button{
+		display: block;
+		width: 150px;
+		height: 40px;
+		border: 1px solid #CCCCCC;
+		background: white;
+		margin-left: 86px;
+		margin-top: 30px;
+	}
+	.rights{
+		float: right;
+		width: 400px;
+		height: 100px;
+		margin-top: 157px;
+		margin-right: 146px;
+	}
+	.rights p{font-size: 14px;}
+	.rights button{
+		display: block;
+		width: 150px;
+		height: 40px;
+		border: 1px solid #CCCCCC;
+		background: white;
+		margin-left: 114px;
+		margin-top: -29px;
+		cursor: pointer;
+	}
+	

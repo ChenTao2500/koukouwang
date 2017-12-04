@@ -1,0 +1,89 @@
+.cart_header img{
+	width: 100%;
+}
+.box{
+	width: 1080px;
+}
+.info{
+	width: 1080px;
+	margin-top:50px;
+	margin-left: 130px;
+	height: 30px;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	background: gray;
+}
+.info p{
+	line-height: 3px;
+	color: white;
+}
+.info p a{color: white;}
+.address{
+	/*;*/
+	margin-left: 130px;
+	margin-top: 20px;
+	border: 1px solid #ccc;
+	height: 550px;
+	width: 1080px;
+}
+.address span{
+	padding: 30px;
+	font-size: 15px;
+	}
+.address .a{
+	color: #C0A16B;
+	cursor: pointer;
+}
+.address .a b{
+	font-weight: bold;
+	font-size: 20px;
+	margin-right: 3px;
+}
+.address form{
+	width: 1080px;
+	height: 433px;
+	padding-left:15px ;
+	margin-top: 18px;
+}
+.address form i{
+	margin: 0 4px;
+	color: red;
+	font-style: normal;
+}
+.address form input{
+	margin-left: 30px;
+	border: 1px solid #ccc;
+	height: 30px;
+	width: 290px;
+}
+.address form select{height: 24px;}
+.address form .sel{
+	margin-left: 64px;
+}
+.address form textarea{
+	margin-top: 15px;
+	margin-left: 40px;
+	height:67px;
+	width: 824px;
+}
+.address form .phone{
+	margin-top: 17px;
+	margin-left: 44px;
+}
+.address form .half{
+	width: 120px;
+}
+.address form  .youbian{
+	margin-left: 75px;
+	margin-top: 17px;
+}
+.address form button{
+	border: none;
+	background: #C8AE53;
+	height: 50px;
+	width: 266px;
+	margin-left: -2px;
+	margin-top: 30px;
+}
+.address form .text{color: #C0C0C0;}

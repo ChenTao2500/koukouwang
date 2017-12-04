@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<div class="outer">
+			<div class="date">
+				<div class="week">
+					<ul>
+						<li class="mon">MON</li>
+						<li class="tue">TUE</li>
+						<li class="wen">WED</li>
+						<li class="thu">THU</li>
+						<li class="fri" style="opacity: 1;">FRI</li>
+						<li class="sat">SAT</li>
+						<li class="sun">SUN</li>
+					</ul>
+				</div>
+					<div class="date_time">
+						<span id="hour">14</span>:<span id="min">23</span >:<span id="sec">35</span>
+					</div>
+					<span id="bottom_left" style="display: none;">AM</span>
+					<span id="bottom_right" style="display: none;">PM</span>
+			</div>
+		</div>	
+	</body>
+	<script src="lib/jquery-1.12.4.min.js"></script>
+	<script >
+		$(function(){
+		 	setInterval(function(){
+		 		var date = new Date(),
+			   		hour = ("0" + date.getHours()).slice(-2),
+					minute = ("0" + date.getMinutes()).slice(-2),
+					second = ("0" + date.getSeconds()).slice(-2),
+					week = date.getDay();
+			$("#hour").text(hour);
+			$("#min").text(minute);
+			$("#sec").html(second);
+			if(hour >12){
+				$("#bottom_right").show()
+			}else{
+				$("#bottom_left").show()
+			}
+		 	},1000)
+		 })
+	</script>
+</html>

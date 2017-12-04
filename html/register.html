@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/register.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/header.css"/>
+	</head>
+	<body>
+	<div class="head"></div>
+	<div class="logo-part">
+		<div class="logo"><img src="../img/logo.png"/></div>
+		<div class="hotline"><img src="../img/hotline.png"/></div>
+	</div>
+	<!--注册框-->
+	<div class="reg">
+		<div class="reg_box">
+			<div class="reg_header">
+				<img src="../img/reg-header.png"/>
+			</div>
+			<div class="reg_input">
+				       账号       <input required="required" id="username" type="text" placeholder="邮箱/用户名/手机号" /><span id="username_info"></span><br /><br />
+				       密码       <input required="required" type="password" id="password"  /><br /><br />
+				确认密码      <input type="text" id="con"/><br /><span id="conform_mima"></span><br /><br />
+				    验证码      <input type="text" size="1" id="code" />
+				    <img style="width:131px; height: 41px; position:relative; top: 16px; left: 6px;" src=""  id="codes-pic"  />
+				    		<label><span>看不清 ?<br><i style="cursor: pointer;" id="change">换一个</i></span></label>
+				    		<span id="info"></span><br />
+				        <input type="checkbox" /><p>我已阅读并同意<a href="#">《扣扣用户注册协议》</a></p><br>
+				        <button id="btn">注册</button>
+			</div>
+		</div>
+	<!--注册框右边部分-->
+		<div class="rights">
+			<p>已有扣扣账号?</p>
+			<a href="login.html"><button>登陆</button></a>
+		</div>
+	</div>
+	<div class="footerr"></div>
+	<script src="../lib/requirejs/require.js" data-main="../js/register"></script>
+	</body>
+</html>

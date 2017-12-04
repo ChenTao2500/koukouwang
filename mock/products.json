@@ -1,0 +1,6 @@
+[
+	{"id":1, "img":"../img/bug.jpg", "curr_price": 1945.00, "ago_price": 1795.00,  "title":"COACH帆布时尚手提包"},
+	{"id":2, "img":"../img/watch.jpg", "curr_price": 1980.00, "ago_price": 2280.00, "title":"意大利GALLUCCI银河系列-双子星机械表"},
+	{"id":3, "img":"../img/bug1.jpg", "curr_price": 1945.00, "ago_price": 1795.00, "title":"delsey时尚砖石登机旅行箱"},
+	{"id":4, "img":"../img/bug.jpg", "curr_price": 1945.00, "ago_price": 1795.00, "title":"艾维诺/Aveeno宝宝湿疹膏"}
+]

@@ -1,0 +1,126 @@
+._title, .cart_body, .row{
+	clear: both;
+}
+.row{
+	margin-left: 100px;
+}
+._title{
+	margin-left: 206px;
+	width:800px ;
+	height: 17px;
+	margin-top: 40px;
+	text-align:center;
+	/*float: left;*/
+}
+.row div img{
+	width: 89px;
+	height: 52px;
+	
+}
+._title div, .row div{
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+}
+.row .add, .row .minus{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid;
+	text-align: center;
+	cursor: pointer;
+}
+.cart_body{
+	height: 300px;
+	width:1138px;
+	margin: auto;
+	margin-top: 33px;
+	margin-bottom: -37px;
+}
+ .sum{
+	display: block;
+	width: 165px;
+	height: 30px;
+	background: lavender;
+	float: right;
+	margin-right: 30px;
+	line-height: 30px;
+}
+ .sum a{
+ 	display: block;
+ 	width: 165px;
+	height: 50px;
+	background: red;
+	line-height: 50px;
+	color: white;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 15px
+ }
+.cart_body span{
+	font-size: 14px;
+	color: #C0C0C0;
+	position:relative;
+	
+	}
+.cart_body span i{font-style: normal;}
+.cart_header{
+	margin-top: 12px;
+}
+.cart_header .checkall{
+	position: absolute;
+	top: 100px;
+	left: 127px;
+}
+.cart_header .cartheader{
+	width:1138px;
+	height: 30px;
+}
+.cart_body .cart_datail{
+	/*border: 1px solid #ccc;*/
+	margin-top: 20px;
+	width:1138px;
+	height: 300px;
+	
+}
+.cart_body .cart_datail img{
+	float: left;
+	margin-left: 280px;
+	margin-top: 52px;
+}
+.cart_body .cart_datail .select{
+	float: right;
+	margin-right: 409px;
+	margin-top: 99px;
+}
+.cart_body .cart_datail .select p{
+	color: saddlebrown;
+	font-size: 21px;
+}
+.cart_body .cart_datail .select button{
+	margin-top: 20px;
+	border: none;
+	width: 100px;
+	height: 40px;
+	color: white;
+	cursor: pointer;
+}
+.cart_body .cart_datail .select button:nth-child(2){
+	background: red;
+	margin-right: 10px;
+}
+.cart_body .cart_datail .select button:nth-child(3){
+	background: black;
+	}
+ .cart_footer{
+	border-top: 1px solid #ccc;
+	height: 104px;
+	background: whitesmoke;
+	width:100%;
+	margin-bottom: -27px;
+}

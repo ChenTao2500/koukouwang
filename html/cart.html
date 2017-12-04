@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/cart.css"/>
+		<script src="../lib/requirejs/require.js" data-main = "../js/cart"></script>
+	</head>
+	<body>
+		<!--头部-->
+		<div class="head"></div>
+		<div class="_title">
+			<div><label><input type="checkbox" id="check_all"/>全选</label></div>
+			<div>图片</div>
+			<div>标题</div>
+			<div>现价</div>
+			<div>原价</div>
+			<div>数量</div>
+			<div>小计</div>
+			<div>操作</div>
+		</div>
+		<!--购物车主体-->
+		<div class="cart_body">
+			<!--<a href='html/list.html'>二怂</a>-->
+			<div class="cart_datail">
+				<img src="../img/cart.png"/>
+				<div class="select">
+					<p>对不起,您的购物车暂无商品</p>
+					<button><a href="list.html" style="color: white;">选购商品</a></button>
+					<button>查看订单</button>
+				</div>
+			</div>
+		</div>
+		<!--合计-->
+		<div class="sum" style="clear: both;">
+			合计（不含运费）￥： <span class="total">0.00</span><br>
+				<a href="confirm.html">立即支付</a>
+		</div>
+		
+		<!--购物车商品显示模板-->
+		<script type="text/html" id="cart_template">
+			{{each products as prod i}}
+			<div class= "row">
+				<div><input type = "checkbox" class = "ck_prod"></div>
+				<div style="display:none;" class = "id">{{prod.id}}</div>
+				<div><img src="{{prod.img}}" class="img"></div>
+				<div title="{{prod.title}}" class="title">{{prod.title}}</div>
+				<div class="curr">{{prod.curr}}</div>
+				<div class="ago_price">{{prod.ago_price}}</div>
+				<div>
+					<span class="minus">-</span>
+					<input type="text" size="1" value="{{prod.amount}}" class="amount">
+					<span class="add">+</span>
+				</div>
+				<div class="sub">{{prod.curr*prod.amount}}</div>
+				<div><a href="javascript:void(0);" class="del">删除</a></div>
+			</div>
+			{{/each}}
+		</script>
+		<div class="cart_footer"></div>
+		<!--尾部-->
+		<div class="footerr"></div>
+	</body>
+</html>

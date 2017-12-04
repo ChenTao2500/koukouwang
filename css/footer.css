@@ -1,0 +1,76 @@
+/*脚部分*/
+.footer{
+	width: 100%;
+	height: 81px;
+	background:black;
+	margin-top: 27px;
+	position: relative;
+}
+.footer ul{
+	width: 600px;
+	height: 75px;
+	border: 1px solid;
+	margin-left: 297px;
+}
+.footer ul li{
+	float: left;
+	padding: 0 22px;
+	background: url(../img/bor.png) no-repeat right center;
+}
+.footer ul li:nth-of-type(4){
+	background: none;
+}
+.footer .rightpic {
+	position: absolute;
+	top: -8px;
+	left: 863px;
+	float: left;
+}
+/*尾部的连接部分*/
+
+.link .left{
+	width: 800px;
+	margin-left: 86px;
+	float: left;
+}
+.link .left p{
+	margin-top: 23px;
+	font-weight: bold;
+	float: left;
+	padding: 0 39px;
+	background: url(../img/border1.png) no-repeat right;
+}
+.link .left p:nth-of-type(6){background: none;}
+.link .left .ul{
+	width: 764px;
+	height: 165px;
+	margin-top: 50px;
+	margin-left: 37px;
+}
+.link .left .ul ul{
+	float: left;
+	width: 96px;
+	height: 165px;
+	background: white;
+	margin-right: 31px;
+}
+.link .left .ul li{line-height: 25px;}
+.link .left .ul li a{color: black;} 
+.link .right{
+	width: 400px;
+	height: 100px;
+	background: green;
+	float: right;
+	margin-right: 59px;
+	margin-top: 26px;
+}
+.link  .copyright{
+	display: inline-block;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 145px;
+	color: #ccc;
+}
+.link .pic{
+	text-align: center;
+}

@@ -1,0 +1,75 @@
+<meta charset="utf-8" />
+	*{
+		padding: 0;
+		margin: 0;
+		font-size: 12px;
+		list-style: none;
+		text-decoration: none;
+	}
+	.header{
+		width: 100%;
+		height: 30px;
+		background: #666;
+	}
+	.header .box{
+		width: 1157px;
+		margin: 0 auto;
+		height: 30px;
+	}
+	.header .box .left{
+		width: 300px;
+		height: 30px;
+		float: left;
+	}
+	.header .box .left p{
+		color: white;
+		float: left;
+		padding: 0 4px;
+		line-height: 30px; 
+		}
+	.header .box .left a{color: white;}
+	.header .box .right{
+		width: 511px;
+		height: 30px;
+		float: right;
+	}
+	.header .box .right li{
+		float: left;
+		line-height: 30px;
+		padding: 0 15px;
+	}
+	.header .box .right li a{
+		color: white;
+	}
+	.header .box .right li:nth-child(1){
+		padding-left: 24px;
+		background: url(../img/house.png) no-repeat -1px 3px;
+	}
+	.header .box .right li:nth-child(2){
+		background: url(../img/right.png) no-repeat 64px 4px;
+	}
+	.header .box .right li:nth-child(4){
+		background: url(../img/right.png) no-repeat 55px 4px;
+	}
+	.header .box .right li:nth-child(5){
+		margin-top: 4px;
+	}
+	/*logo部分*/
+	.logo-part{
+		width: 100%;
+		height: 73px;
+		border-bottom: 3px solid;
+	}
+	.logo-part .logo{
+		width: 112px;
+		height: 59px;
+		float: left;
+		margin-left: 105px;
+	}
+	.logo-part .hotline{
+		width: 112px;
+		height: 59px;
+		float: right;
+		margin-right: 172px;
+		margin-top: 10px;
+	}

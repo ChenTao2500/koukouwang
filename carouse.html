@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/mystyle.css"/>
+	</head>
+	<body>
+		<div class="outer">
+			<div class="left_pic"></div>
+			<div class="right_pic"></div>
+			<div class="next">></div>
+			<div class="prve"><</div>
+		</div>
+	</body>
+	<script src="lib/jquery-1.12.4.min.js" ></script>
+	<script type="text/javascript">
+		$(function(){
+			
+			$.getJSON("mock/img.json", function(data){
+				var iimg = data.imgs, // 获取所有图片
+					len = iimg.length, // 图片长度
+					curr_index = 0, // 当前索引
+					nextIndex = curr_index+1, // 下一个
+					timer = null;
+					timer = setInterval(move, 2000);
+					html = "",
+					$.each(iimg, function(index, name) { // 遍历模板里面的所有图片
+						
+						html += "<div><img src='"+ name.img +"'/></div>";
+					});
+					$(".left_pic").html(html);
+					
+					$(".right_pic").html(html);
+					
+					var left = $(".left_pic div"), //左边部分
+						gight = $(".right_pic div"); // 右边部分
+						left.eq(0).addClass("cur");
+						gight.eq(0).show();
+					$(".prve, .next").hover( function(){
+						clearInterval(timer);
+					},function(){
+						timer = setInterval(move,1000);
+					});
+					left.on("mouseover", function(){
+						if(curr_index === $(this).index()){
+							return;
+						}
+						nextIndex = $(this).index();
+						move();
+						clearInterval(timer);
+					});
+					left.on("mouseleave", function(){
+						timer = setInterval(move,1000);
+					})
+					$(".prve").click(function(){
+						nextIndex = curr_index-1;
+						if(nextIndex < 0){
+							nextIndex = len-1;
+						}
+						move();
+					})
+					$(".next").click(function(){
+						move()
+					});
+					
+					// 运动函数
+					function move(){
+						gight.eq(curr_index)
+							  .show()
+							  .eq(nextIndex)
+							  .hide();
+						left.eq(curr_index)
+						     .removeClass("cur").end()
+						     .eq(nextIndex)
+						     .addClass("cur");
+						// 索引变化    
+						curr_index = nextIndex;
+							nextIndex++;
+						if(nextIndex >= len){
+							nextIndex = 0;
+						}
+					}
+			})
+		})
+	</script>
+</html>

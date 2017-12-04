@@ -1,0 +1,171 @@
+.pp img{width: 100%;}
+.cart{
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	width: 100px;
+	float: right;
+	}
+.zoom{
+	height:500px;
+	width :1245px;
+	margin:40px auto;
+}
+.zoom .left{
+	float:left;
+	height:539px;
+	width : 500px;
+	background:tan;
+}
+.zoom .right{
+	float:right;
+	height:539px;
+	width : 685px;
+}
+.zoom .right dl{
+	height: 100px;
+	margin-top: 10px;
+	width: 500px;
+	border-bottom: 1px dotted #ccc;
+	margin-bottom: 15px;
+}
+.zoom .right dl dt{
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+.buys{
+	width: 500px;
+}
+.right .buys .kk{
+	margin-left: 16px;
+	margin-top: 20px;
+	display: block;
+	width: 300px;
+	height: 30px;
+	overflow: hidden;
+	border: none;
+}
+.buys .kk dt{float: left;}
+.buys .kk dd{float: left;}
+.buys .kk dd{border: 1px solid; margin-left: 20px;}
+.buys .kk .add, .minus, input{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+}
+.buys .kk .add{height: 24px; border-right: 1px solid;}
+.buys .kk .minus{ height: 24px; border-left: 1px solid;}
+.buys .kk  input{border: none;width: 50px;}
+.buys .kk .kucun{
+	display: block;
+	width: 100px;
+	margin-left:114px;
+	margin-top: 6px;
+	}
+/*立即购买 加入购物车*/
+.buys button{
+	margin-top: 50px;
+	border:1px solid #ccc;
+	height: 40px;
+	margin-left: 16px;
+	background: none;
+	line-height:40px ;
+	cursor: pointer;
+}
+.buys .liji{
+	background: orange;
+	color: white;
+	width: 170px;
+}
+.buys .jiaru{
+	width: 170px;
+}
+.buys .shoucang{
+	width: 60px;
+}
+.buys .serve, .share{
+	width: 413px;
+	height: 35px;
+	border: 1px solid #ccc;
+	padding-left: 6px;
+	margin-left: 16px;
+	margin-top: 33px;
+	line-height: 35px;
+	overflow: hidden;
+}
+.buys .serve img{
+	margin-left: 28px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+.buys .share{
+	border: none;
+}
+.buys .share img{
+	margin-left: 10px;
+	cursor: pointer;
+}
+/*评价区域*/
+.pingjia{
+	width: 1279px;
+	background: lavender;
+	margin: auto;
+	height: 900px;
+}
+.pingjia .left{
+	border: 1px solid #ccc;
+	width: 200px;
+	height: 370px;
+	text-align: center;
+	background: #F5F5F5;
+	margin-left: 16px;
+	float: left;
+}
+.pingjia .right{
+	border: 1px solid #ccc;
+	width: 1021px;
+	height: 400px;
+	float: right;
+}
+.pingjia .right .title{
+	height: 40px;
+	width: 1021px;
+	border-bottom:1px solid #ccc;
+}
+.pingjia .right .tt{
+	float: left;
+	border-right: 1px solid #C0C0C0;
+	display: block;
+	height: 40px;
+	width: 150px;
+	line-height: 40px;
+	padding-left: 45px;
+	
+}
+.pingjia .right span{
+	float: right;
+	margin-right: 20px;
+}
+.pingjia .right span a{display: block; float: left;  margin-top: 12px;}
+.pingjia .right span img{
+	margin-top: 4px;
+}
+.pingjia .right .show1 h2{
+	font-size: 25px;
+	border-bottom: 1px solid gray;
+	display: block;
+	width: 237px;
+	margin: 10px;
+}
+.pingjia .right .show1 b{
+	display: block;
+	margin: 10px;
+}
+.pingjia .right .show3 .text{
+	margin-left: 70px;
+}
+.pingjia .right .show3 dl{
+	margin-top: 30px;
+	border-bottom: 1px solid #ccc;
+	width: 960px;
+}
